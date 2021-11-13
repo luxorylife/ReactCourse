@@ -1,0 +1,19 @@
+h1 {
+  color: blue;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  font-size: 30px;
+}
+
+.wrapper {
+  width: 400px;
+  border: 727px solid red;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: bisque;
+}

@@ -1,0 +1,32 @@
+.menu-wrapper {
+  background-color: #6699ff;
+  //background-color: rgb(102, 153, 255);
+  //background-color: rgba(102, 153, 255, 0.5);
+
+  ul {
+    list-style: none;
+    padding: 20px 0px;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      margin-right: 20px;
+      background-color: rgb(79, 238, 138);
+      transition: 1s;
+
+      &:hover {
+        background-color: rgb(201, 93, 93);
+      }
+
+      a {
+        display: block;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #000;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.todo-wrapper {
+  width: 500px;
+  border: 2px solid orange;
+  padding: 20px;
+  margin: 10px auto;
+}
+
+.todo-wrapper ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-wrapper ul li {
+  border: 1px solid black;
+  padding: 10px 8px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: 0.5s;
+}
+
+.todo-wrapper ul li:hover {
+  background-color: greenyellow;
+  color: red;
+}
+
+.todo-wrapper .btn-delete {
+  background-color: white;
+  transition: 1s;
+}
+
+.todo-wrapper .btn-delete:hover {
+  background-color: cyan;
+  cursor: pointer;
+}
